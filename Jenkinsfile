@@ -1,6 +1,6 @@
 @Library('todoapp') _
 
-todoapp (
+todo (
         COMPONENT             : 'todo',
         PROJECT_NAME          : "Todoapp",
         SLAVE_LABEL           : "NODEJS",
