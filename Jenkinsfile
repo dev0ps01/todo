@@ -4,9 +4,11 @@ pipeline {
 
     stages {
       stage (' download dependices') {
-        sh '''
-          npm install
-        '''
+        steps {
+          sh '''
+            npm install
+          '''
+        }
       }
       stage ('prepare artifact') {
         steps {
